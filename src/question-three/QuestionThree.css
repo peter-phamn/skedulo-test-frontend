@@ -1,0 +1,134 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: red;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.content__details {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.side-bar {
+    display: flex;
+    width: 4rem;
+    height: calc(100vh - 7.8rem);
+    background-color: #223048;
+}
+
+.header {
+    display: flex;
+    height: 5rem;
+    background-color: #3D9BFF;
+    align-items: center;
+    padding-inline: 1rem;
+}
+
+.header__title {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.jobs-view {
+    display: flex;
+    flex-shrink: 0.7;
+    flex-direction: column;
+    background-color: cadetblue; 
+    padding-top: 1rem;
+    padding-inline: 1rem;
+    height: calc(100vh - 13.8rem);
+    overflow-y: scroll;
+}
+
+.list-view {
+    display: flex;
+    flex: 2;
+    background-color: white; 
+    flex-direction: column;
+    height: calc(100vh - 12.8rem);
+    overflow-y: scroll;
+
+}
+
+.list-view__item {
+    display: flex;
+    background-color: #E4EEF1;
+    padding: 5rem;
+    flex: 1;
+    margin: 1rem;
+}
+
+.card {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header-title {
+    display: flex;
+    align-items: center;
+}
+
+.card-header-title__name {
+    font-weight: bold;
+    font-size: large;
+    margin-right: 0.3rem;
+}
+
+.card-header-title__no {
+    color: #c4c4c4;
+    font-size: medium;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-details__time {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-details__circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: #3D9BFF;
+}
+
+.card-details__text {
+    color: #3D9BFF;
+    font-weight: bold;
+}
+
+
+.card-info {
+    font-size: small;
+    color: #c4c4c4;
+}
